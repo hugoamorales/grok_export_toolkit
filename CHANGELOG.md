@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2025-10-24
 ### Added
 - Initial public release of **Grok Export Toolkit**.
-- Added `grok_to_llmchatexplorer.py`: converts Grok exports into ChatGPT-compatible JSON format.
+- Added `grok_to_llmexplorer.py`: converts Grok exports into ChatGPT-compatible JSON format.
 - Added `grok_to_conversations_folder.py`: splits a Grok export into individual conversation files and an `INDEX.json`.
 - Included detailed CLI help, version info, and ASCII banner.
 - Added `README.md`, `LICENSE`, `CHANGELOG.md`, `setup.cfg`, and `pyproject.toml`.
