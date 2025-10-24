@@ -9,7 +9,7 @@
 #  This is an independent, open-source utility
 #  not affiliated with or endorsed by xAI.
 # ─────────────────────────────────────────────────────────────
-#  File: grok_to_llmchatexplorer.py
+#  File: grok_to_llmexplorer.py
 #  Version: 1.0.0
 #  Author: Dynnovators Studio — AI Systems Division
 #  Assistant: Lyra Magilla
@@ -17,15 +17,15 @@
 
 """
 Converts an xAI Grok conversation export (e.g., prod-grok-backend.json)
-into a ChatGPT-compatible JSON format for use with LLM Chat Explorer,
-ChatGPT Archive Viewer, or other visualization tools.
+into a ChatGPT-compatible JSON format for use with LLM Explorer tools
+such as ChatGPT Archive Viewer or LLM Chat Explorer.
 """
 
 import json
 import sys
 from pathlib import Path
 
-__version__ = "1.0.0"
+__version__ = "1.0.2"
 
 BANNER = f"""
 ──────────────────────────────────────────────
@@ -41,15 +41,16 @@ This tool is an independent, open-source utility.
 
 HELP_TEXT = f"""{BANNER}
 USAGE:
-    python3 grok_to_llmchatexplorer.py <input_file.json> [output_file.json]
+    python3 grok_to_llmexplorer.py <input_file.json> [output_file.json]
 
 DESCRIPTION:
     Converts a Grok export (from xAI) into a ChatGPT-compatible JSON format.
-    The result can be imported into viewers like LLM Chat Explorer.
+    The result can be imported into viewers like LLM Explorer, ChatGPT Archive Viewer,
+    or LLM Chat Explorer.
 
 EXAMPLES:
-    python3 grok_to_llmchatexplorer.py prod-grok-backend.json
-    python3 grok_to_llmchatexplorer.py input.json converted_output.json
+    python3 grok_to_llmexplorer.py prod-grok-backend.json
+    python3 grok_to_llmexplorer.py input.json converted_output.json
 
 VERSION:
     {__version__}
@@ -120,7 +121,7 @@ def main():
         sys.exit(0)
 
     input_path = Path(sys.argv[1])
-    output_path = Path(sys.argv[2]) if len(sys.argv) > 2 else input_path.with_name("grok_converted_for_llmchatexplorer.json")
+    output_path = Path(sys.argv[2]) if len(sys.argv) > 2 else input_path.with_name("grok_converted_for_llmexplorer.json")
 
     print(BANNER)
     print(f"📂 Loading Grok export: {input_path}")
@@ -134,7 +135,7 @@ def main():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(converted, f, indent=2, ensure_ascii=False)
 
-    print("✅ Conversion complete! You can now import this file into LLM Chat Explorer.")
+    print("✅ Conversion complete! You can now import this file into your LLM viewer.")
     print("──────────────────────────────────────────────")
 
 
