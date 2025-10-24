@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grok_export_toolkit"
+version = "1.0.0"
+authors = [
+    { name = "Dynnovators Studio — AI Systems Division" },
+]
+description = "Utilities to transform and organize xAI Grok exports into structured formats for visualization and analysis."
+readme = "README.md"
+license = { text = "MIT License © 2025 Dynnovators Studio" }
+requires-python = ">=3.8"
+keywords = ["grok", "xai", "export", "chatgpt", "converter", "json", "llm", "dynnovators"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities",
+    "Intended Audience :: Developers",
+    "Natural Language :: English"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
