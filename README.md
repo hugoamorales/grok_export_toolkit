@@ -5,9 +5,7 @@
 [![GitHub license](https://img.shields.io/github/license/hugoamorales/grok_export_toolkit)](https://github.com/hugoamorales/grok_export_toolkit/blob/main/LICENSE)
 [![Maintenance](https://img.shields.io/maintenance/yes/2025?color=brightgreen)](https://github.com/hugoamorales/grok_export_toolkit/commits/main)
 [![GitHub contributors](https://img.shields.io/github/contributors/hugoamorales/grok_export_toolkit)](https://github.com/hugoamorales/grok_export_toolkit/graphs/contributors)
-[![Made with HTML](https://img.shields.io/badge/Made%20with-HTML-orange)](#)
-[![Made with CSS](https://img.shields.io/badge/Made%20with-CSS-blue)](#)
-[![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow)](#)
+[![Made with JavaScript](https://img.shields.io/badge/Made%20with-Python-blue)](#)
 
 ### © 2025 Dynnovators Studio — MIT License  
 **Dynnovators Studio, a Personal Brand of Hugo Morales**  
