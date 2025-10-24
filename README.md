@@ -118,9 +118,8 @@ grok-export-toolkit/
 ├── pyproject.toml
 ├── setup.cfg
 ├── grok_to_llmchatexplorer.py
-├── grok_to_conversations_folder.py
-└── examples/
-    └── prod-grok-backend-sample.json
+└── grok_to_conversations_folder.py
+
 ```
 
 ---
