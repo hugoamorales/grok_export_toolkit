@@ -2,7 +2,7 @@
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/hugoamorales/grok_export_toolkit?logo=github)](https://github.com/hugoamorales/grok_export_toolkit/releases/latest)
 [![GitHub all releases](https://img.shields.io/github/downloads/hugoamorales/grok_export_toolkit/total?logo=github)](https://github.com/hugoamorales/grok_export_toolkit/releases)
-[![GitHub license](https://img.shields.io/github/license/hugoamorales/grok_export_toolkit)](https://github.com/hugoamorales/grok_export_toolkit/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://img.shields.io/github/license/hugoamorales/grok_export_toolkit)
 [![Maintenance](https://img.shields.io/maintenance/yes/2025?color=brightgreen)](https://github.com/hugoamorales/grok_export_toolkit/commits/main)
 [![GitHub contributors](https://img.shields.io/github/contributors/hugoamorales/grok_export_toolkit)](https://github.com/hugoamorales/grok_export_toolkit/graphs/contributors)
 [![Made with JavaScript](https://img.shields.io/badge/Made%20with-Python-blue)](#)
