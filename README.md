@@ -41,19 +41,19 @@ cd grok-export-toolkit
 
 ## 🧩 Included Tools
 
-### 1️⃣ `grok_to_llmchatexplorer.py`
+### 1️⃣ `grok_to_llmexplorer.py`
 
 **Purpose:**  
-Convert an entire Grok backend export into a single file compatible with ChatGPT or LLM Chat Explorer.
+Converts an entire Grok backend export into a single file compatible with LLM viewers (e.g., ChatGPT Archive Viewer, LLM Chat Explorer).
 
 **Usage:**
 ```bash
-python3 grok_to_llmchatexplorer.py prod-grok-backend.json
+python3 grok_to_llmexplorer.py prod-grok-backend.json
 ```
 
 **Output:**
 ```
-grok_converted_for_llmchatexplorer.json
+grok_converted_for_llmexplorer.json
 ```
 
 ---
@@ -117,7 +117,7 @@ grok-export-toolkit/
 ├── CHANGELOG.md
 ├── pyproject.toml
 ├── setup.cfg
-├── grok_to_llmchatexplorer.py
+├── grok_to_llmexplorer.py
 └── grok_to_conversations_folder.py
 
 ```
@@ -141,8 +141,11 @@ See [`LICENSE`](LICENSE) for details.
 ## 🙏 Acknowledgments
 
 - **xAI** for developing *Grok*, whose export format inspired this toolkit.  
+- **levysogt (Antonio)** for creating [LLM Chat Explorer](https://github.com/levysoft/llm-chat-explorer),  
+  the visualization tool that inspired and validated this conversion format.  
 - **OpenAI**, **Anthropic**, and the wider LLM community for setting the foundation for structured AI dialogue analysis.  
-- Built with care by **Dynnovators Studio** to empower creators, researchers, and developers exploring the frontier between AI and human narrative.
+- Built with care by **Dynnovators Studio**, the personal brand of **Hugo Morales**,  
+  to empower creators, researchers, and developers exploring the frontier between AI and human narrative.
 
 ---
 
