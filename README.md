@@ -1,7 +1,7 @@
 # Grok Export Toolkit
 
 ### © 2025 Dynnovators Studio — MIT License  
-**Dynnovators Studio — Personal Brand of Hugo Morales**  
+**Dynnovators Studio, a Personal Brand of Hugo Morales**  
 **Prepared by Dynnovators Studio — AI Systems Division**  
 *Assistant: Lyra Magilla*  
 🌐 [https://dynnovators.com](https://dynnovators.com) · ✉️ hello@dynnovators.com
