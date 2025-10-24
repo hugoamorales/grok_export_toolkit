@@ -3,7 +3,6 @@
 ### © 2025 Dynnovators Studio — MIT License  
 **Prepared by Dynnovators Studio, personal brand of Hugo Morales — AI Systems Division**  
 *Assistant: Lyra Magilla*
-
 *Website: https://dynnovators.com*
 *Contact: hello@dynnovators.com*
 ---
