@@ -1,3 +1,6 @@
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/levysogt/llm-chat-explorer)
+![GitHub contributors](https://img.shields.io/github/contributors/levysogt/llm-chat-explorer)
+
 # Grok Export Toolkit
 
 ### © 2025 Dynnovators Studio — MIT License  
